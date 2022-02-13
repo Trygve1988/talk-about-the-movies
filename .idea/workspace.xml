@@ -2,8 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67ecaf8d-cdf8-47b0-92c8-f3154185b284" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/api.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/collection.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/company.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/configuration.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/episode.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/find.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/genre.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/job.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/keyword.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/movie.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/person.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/resource.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/search.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/season.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/tv.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/version.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themoviedb.gemspec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/say_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/say_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/say/movie.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/say/movie.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +181,7 @@
       <workItem from="1644711134312" duration="8278000" />
       <workItem from="1644719787505" duration="2180000" />
       <workItem from="1644775979323" duration="1309000" />
-      <workItem from="1644783870469" duration="6122000" />
+      <workItem from="1644783870469" duration="5942000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1644711735961</created>
@@ -267,28 +288,7 @@
       <option name="project" value="LOCAL" />
       <updated>1644788046669</updated>
     </task>
-    <task id="LOCAL-00016" summary="connected to moviedb">
-      <created>1644789845578</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1644789845578</updated>
-    </task>
-    <task id="LOCAL-00017" summary="connected to moviedb">
-      <created>1644789853975</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1644789853975</updated>
-    </task>
-    <task id="LOCAL-00018" summary="sletta lib">
-      <created>1644789972917</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1644789972917</updated>
-    </task>
-    <option name="localTasksCounter" value="19" />
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,8 +314,6 @@
     <MESSAGE value="new start" />
     <MESSAGE value="can search for movies" />
     <MESSAGE value="init" />
-    <MESSAGE value="connected to moviedb" />
-    <MESSAGE value="sletta lib" />
-    <option name="LAST_COMMIT_MESSAGE" value="sletta lib" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>
