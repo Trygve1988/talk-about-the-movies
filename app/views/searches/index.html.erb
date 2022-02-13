@@ -1,3 +1,5 @@
+<p style="color: green"><%= notice %></p>
+
 <% @search = Search.create %>
 <%= form_for :search, url: do_searh_search_path(@search), method: :post do |f|%>
   <%= f.text_field :text %>
@@ -5,7 +7,8 @@
 <%end%>
 
 <% if @result %>
-  <% @result.each do |movie| %>
-    <p><%= movie %></p>
+  <% @result.each do |title| %>
+    <p><%= title %></p>
+    <%= button_to 'Select', movies_path(title: title) %>
   <% end %>
 <% end %>
