@@ -2,29 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67ecaf8d-cdf8-47b0-92c8-f3154185b284" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/themoviedb.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/themoviedb/api.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/themoviedb/collection.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/themoviedb/company.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/themoviedb/configuration.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/themoviedb/episode.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/themoviedb/find.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/themoviedb/genre.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/themoviedb/job.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/themoviedb/keyword.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/themoviedb/movie.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/themoviedb/person.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/themoviedb/resource.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/themoviedb/search.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/themoviedb/season.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/themoviedb/tv.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/themoviedb/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themoviedb.gemspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/searches_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/searches_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/search.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/searches/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20220213221507_create_searches.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/searches_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/searches.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/search_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/system/searches_test.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/say_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/say_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/say/movie.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/say/movie.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

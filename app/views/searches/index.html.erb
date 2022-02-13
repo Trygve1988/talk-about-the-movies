@@ -1,0 +1,11 @@
+<% @search = Search.create %>
+<%= form_for :search, url: do_searh_search_path(@search), method: :post do |f|%>
+  <%= f.text_field :text %>
+  <%= f.submit "Search" %>
+<%end%>
+
+<% if @result %>
+  <% @result.each do |movie| %>
+    <p><%= movie %></p>
+  <% end %>
+<% end %>
