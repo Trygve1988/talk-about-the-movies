@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67ecaf8d-cdf8-47b0-92c8-f3154185b284" name="Changes" comment="" />
+    <list default="true" id="67ecaf8d-cdf8-47b0-92c8-f3154185b284" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/api.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/collection.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/company.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/configuration.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/episode.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/find.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/genre.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/job.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/keyword.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/movie.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/person.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/resource.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/search.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/season.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/tv.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/themoviedb/version.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themoviedb.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/say_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/say_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/say/movie.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/say/movie.html.erb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +33,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -30,6 +62,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app/views/products" />
     </key>
   </component>
@@ -148,7 +181,7 @@
       <workItem from="1644711134312" duration="8278000" />
       <workItem from="1644719787505" duration="2180000" />
       <workItem from="1644775979323" duration="1309000" />
-      <workItem from="1644783870469" duration="4157000" />
+      <workItem from="1644783870469" duration="5942000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1644711735961</created>
@@ -248,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644787024597</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="init">
+      <created>1644788046669</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1644788046669</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,13 +307,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="init" />
     <MESSAGE value="hei" />
     <MESSAGE value="heeeeeeei" />
     <MESSAGE value="yo" />
     <MESSAGE value="vekk" />
     <MESSAGE value="new start" />
     <MESSAGE value="can search for movies" />
-    <option name="LAST_COMMIT_MESSAGE" value="can search for movies" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>

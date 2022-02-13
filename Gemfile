@@ -70,3 +70,8 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+source 'https://rubygems.org'
+
+# Specify your gem's dependencies in themoviedb.gemspec
+gemspec
