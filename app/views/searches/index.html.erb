@@ -1,14 +1,19 @@
 <p style="color: green"><%= notice %></p>
 
-<% @search = Search.create %>
-<%= form_for :search, url: do_searh_search_path(@search), method: :post do |f|%>
-  <%= f.text_field :text %>
-  <%= f.submit "Search" %>
-<%end%>
+<h1>Search for movies</h1>
 
-<% if @result %>
-  <% @result.each do |title| %>
-    <p><%= title %></p>
-    <%= button_to 'Select', movies_path(title: title) %>
+<div id="movies_search_panel">
+  <% @search = Search.create %>
+  <%= form_for :search, url: do_searh_search_path(@search), method: :post do |f|%>
+    <%= f.text_field :text %>
+    <%= f.submit "Search" %>
+  <%end%>
+</div>
+
+<div id="movies_search_results">
+  <% if @result %>
+    <% @result.each do |title| %>
+      <%= button_to title, movies_path(title: title) %>
+    <% end %>
   <% end %>
-<% end %>
+</div>

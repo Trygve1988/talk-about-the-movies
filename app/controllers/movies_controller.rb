@@ -30,8 +30,8 @@ class MoviesController < ApplicationController
       redirect_to movie_url(@movie), notice: "Movie was successfully created."
     else
       flash[:notice] = @movie.errors.full_messages.to_sentence
+      redirect_back(fallback_location: root_path)
     end
-
   end
 
   # PATCH/PUT /movies/1 or /movies/1.json
