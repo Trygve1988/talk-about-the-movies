@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67ecaf8d-cdf8-47b0-92c8-f3154185b284" name="Changes" comment="movies">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/movies_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/movies_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/movies/_form.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/movies/_movie.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/movies/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/movies/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/movies/index.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/movies/new.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/movies/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/movies/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/movies/show.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/searches/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/searches/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,6 +163,7 @@
       <workItem from="1644775979323" duration="1309000" />
       <workItem from="1644783870469" duration="5942000" />
       <workItem from="1644794829912" duration="4712000" />
+      <workItem from="1645916039474" duration="134000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1644711735961</created>
