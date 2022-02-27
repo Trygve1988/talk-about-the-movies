@@ -10,15 +10,6 @@ class MoviesController < ApplicationController
   def show
   end
 
-  # GET /movies/new
-  def new
-    @movie = Movie.new
-  end
-
-  # GET /movies/1/edit
-  def edit
-  end
-
   # POST /movies or /movies.json
   def create
     title = params[:title]
@@ -27,7 +18,7 @@ class MoviesController < ApplicationController
     @movie.title = title
 
     if @movie.save
-      redirect_to movie_url(@movie), notice: "Movie was successfully created."
+      redirect_to root_path, notice: "Movie was successfully created."
     else
       flash[:notice] = @movie.errors.full_messages.to_sentence
       redirect_back(fallback_location: root_path)
