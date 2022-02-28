@@ -17,6 +17,7 @@
       <th>User</th>
       <th>#</th>
       <th>Latest Posting</th>
+      <th>-</th>
     </tr>
     <% @discussions.each do |discussion| %>
       <tr>
@@ -24,6 +25,7 @@
         <td><%= discussion.user.username %></td>
         <td>0</td>
         <td>0</td>
+        <td><%= button_to "Delete", discussion, method: :delete %></td>
       </tr>
     <% end %>
   </table>

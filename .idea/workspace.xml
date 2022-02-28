@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02b96248-1be8-48ca-ac66-06c58f283651" name="Changes" comment="user">
-      <change afterPath="$PROJECT_DIR$/app/controllers/discussions_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/discussions_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/discussion.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/discussions/_discussion.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/discussions/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/discussions/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/discussions/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20220227232159_create_discussions.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/discussions_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/discussions.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/discussion_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/system/discussions_test.rb" afterDir="false" />
+    <list default="true" id="02b96248-1be8-48ca-ac66-06c58f283651" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/posts_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/post.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/posts/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/posts/_post.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/posts/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/posts/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/posts/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20220228002924_create_posts.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/posts_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/posts.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/post_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/system/posts_test.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/movies_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/movies_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/discussions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/discussions_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/searches_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/searches_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/discussions/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/discussions/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_navbar.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_navbar.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/movies/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/movies/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/_user.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/index.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/show.json.jbuilder" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
@@ -189,7 +189,7 @@
       <workItem from="1646001235424" duration="144000" />
       <workItem from="1646001402893" duration="84000" />
       <workItem from="1646001519394" duration="471000" />
-      <workItem from="1646005212849" duration="2374000" />
+      <workItem from="1646005212849" duration="4895000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1644711735961</created>
@@ -324,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646003951271</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="discusions">
+      <created>1646007844568</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1646007844568</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,6 +361,7 @@
     <MESSAGE value="movies" />
     <MESSAGE value="navbar" />
     <MESSAGE value="user" />
-    <option name="LAST_COMMIT_MESSAGE" value="user" />
+    <MESSAGE value="discusions" />
+    <option name="LAST_COMMIT_MESSAGE" value="discusions" />
   </component>
 </project>

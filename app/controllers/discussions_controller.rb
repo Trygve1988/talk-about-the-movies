@@ -8,15 +8,8 @@ class DiscussionsController < ApplicationController
 
   # GET /discussions/1 or /discussions/1.json
   def show
-  end
-
-  # GET /discussions/new
-  def new
-    @discussion = Discussion.new
-  end
-
-  # GET /discussions/1/edit
-  def edit
+    @post = Post.new
+    @posts = Post.where(discussion: @discussion)
   end
 
   # POST /discussions or /discussions.json
@@ -34,25 +27,12 @@ class DiscussionsController < ApplicationController
     end
   end
 
-  # PATCH/PUT /discussions/1 or /discussions/1.json
-  def update
-    respond_to do |format|
-      if @discussion.update(discussion_params)
-        format.html { redirect_to discussion_url(@discussion), notice: "Discussion was successfully updated." }
-        format.json { render :show, status: :ok, location: @discussion }
-      else
-        format.html { render :edit, status: :unprocessable_entity }
-        format.json { render json: @discussion.errors, status: :unprocessable_entity }
-      end
-    end
-  end
-
   # DELETE /discussions/1 or /discussions/1.json
   def destroy
     @discussion.destroy
 
     respond_to do |format|
-      format.html { redirect_to discussions_url, notice: "Discussion was successfully destroyed." }
+      format.html { redirect_to movie_url(@discussion.movie), notice: "Discussion was successfully destroyed." }
       format.json { head :no_content }
     end
   end
