@@ -8,6 +8,8 @@ class MoviesController < ApplicationController
 
   # GET /movies/1 or /movies/1.json
   def show
+    @discussion = Discussion.new
+    @discussions = Discussion.where(movie: @movie)
   end
 
   # POST /movies or /movies.json

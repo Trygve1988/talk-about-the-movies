@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :discussions
   resources :users
   resources :movies
   resources :searches

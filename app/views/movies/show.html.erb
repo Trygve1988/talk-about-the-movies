@@ -1,9 +1,37 @@
 <p style="color: green"><%= notice %></p>
+<!-- heading -->
+<div class="mb-4">
+  <h1><%= @movie.title %></h1>
+</div>
 
-<h1><%= @movie.title %></h1>
+<!-- new discussions -->
+<div class="mb-4">
+  <%= render "discussions/form", discussion: @discussion %>
+</div>
 
+<!-- all discussions -->
+<div id="discussions" class="mb-5">
+  <table>
+    <tr>
+      <th>Title</th>
+      <th>User</th>
+      <th>#</th>
+      <th>Latest Posting</th>
+    </tr>
+    <% @discussions.each do |discussion| %>
+      <tr>
+        <td><%= link_to discussion.title, discussion %></td>
+        <td><%= discussion.user.username %></td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+    <% end %>
+  </table>
+</div>
+
+
+<!-- back, destory -->
 <div>
   <%= link_to "Back to movies", movies_path %>
-
   <%= button_to "Destroy this movie", @movie, method: :delete %>
 </div>
