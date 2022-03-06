@@ -3,7 +3,6 @@ class SearchesController < ApplicationController
 
   # GET /searches or /searches.json
   def index
-    @search = Search.new
     if session[:result]
       @result = session[:result]
     end
@@ -14,8 +13,6 @@ class SearchesController < ApplicationController
     @search = Search.new(search_params)
 
     if @search.save
-      puts "AAAAAAAAAAAAAAAAAAa #{search_params[:text]} "
-
       Tmdb::Api.key("b86ed2181541cb582c6118debab2480b")
       @request= Tmdb::Search.new
       @request.resource('movie') # determines type of resource
@@ -28,7 +25,7 @@ class SearchesController < ApplicationController
       end
       session[:result] = @result
 
-      redirect_back(fallback_location: root_path)
+      redirect_to searches_path
     end
   end
 

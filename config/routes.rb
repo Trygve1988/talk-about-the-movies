@@ -3,7 +3,6 @@ Rails.application.routes.draw do
   resources :discussions
   resources :users
   resources :movies
-  resources :searches
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   resources :searches do
     member do
