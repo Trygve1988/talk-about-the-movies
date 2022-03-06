@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02b96248-1be8-48ca-ac66-06c58f283651" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/_navbar.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_navbar.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +177,7 @@
       <workItem from="1646595930329" duration="22000" />
       <workItem from="1646596301795" duration="648000" />
       <workItem from="1646596997450" duration="5154000" />
-      <workItem from="1646602193659" duration="1742000" />
+      <workItem from="1646602193659" duration="2944000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1644711735961</created>
@@ -353,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646603397540</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="migration fix">
+      <created>1646604109265</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1646604109265</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,6 +395,7 @@
     <MESSAGE value="navbar" />
     <MESSAGE value="search top" />
     <MESSAGE value="search green button" />
-    <option name="LAST_COMMIT_MESSAGE" value="search green button" />
+    <MESSAGE value="migration fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="migration fix" />
   </component>
 </project>
