@@ -1,29 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02b96248-1be8-48ca-ac66-06c58f283651" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/posts_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/post.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/posts/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/posts/_post.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/posts/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/posts/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/posts/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20220228002924_create_posts.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/posts_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/posts.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/post_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/system/posts_test.rb" afterDir="false" />
+    <list default="true" id="02b96248-1be8-48ca-ac66-06c58f283651" name="Changes" comment="posts">
+      <change afterPath="$PROJECT_DIR$/app/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/_bottom_navbar.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/discussions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/discussions_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/searches_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/searches_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/discussions/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/discussions/show.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/_navbar.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_navbar.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/movies/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/movies/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +42,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rorbua" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets/images" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/images" />
+      <recent name="$PROJECT_DIR$/app/views/layouts" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app/views/products" />
     </key>
@@ -189,7 +174,12 @@
       <workItem from="1646001235424" duration="144000" />
       <workItem from="1646001402893" duration="84000" />
       <workItem from="1646001519394" duration="471000" />
-      <workItem from="1646005212849" duration="4895000" />
+      <workItem from="1646005212849" duration="5067000" />
+      <workItem from="1646339627947" duration="30000" />
+      <workItem from="1646595093748" duration="356000" />
+      <workItem from="1646595930329" duration="22000" />
+      <workItem from="1646596301795" duration="648000" />
+      <workItem from="1646596997450" duration="2559000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1644711735961</created>
@@ -331,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646007844568</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="posts">
+      <created>1646010271909</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1646010271909</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,6 +359,7 @@
     <MESSAGE value="navbar" />
     <MESSAGE value="user" />
     <MESSAGE value="discusions" />
-    <option name="LAST_COMMIT_MESSAGE" value="discusions" />
+    <MESSAGE value="posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="posts" />
   </component>
 </project>

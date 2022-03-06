@@ -21,15 +21,23 @@
 
   <body>
 
-    <div class="container">
-      <div class="row">
-        <div class="col" >
-          <%= Time.zone.now.strftime("%H:%M:%S") %>
-          <%= yield %>
-          <%= render "layouts/navbar" %>
+    <%= render "layouts/navbar" %>
+    <%= render "layouts/bottom_navbar" %>
+
+    <div id="main-container" class="container mb-5 mb-lg-0" >
+      <div id="main-row" class="row">
+        <div id="left-col" class="col-0 col-md-2 p-0 m-0">
+        </div>
+        <div id="center-col" class="col">
+          <div id="yield-container" class="container">
+            <%= yield %>
+          </div>
+        </div>
+        <div id="right-col" class="col-0 col-md-2 p-0 m-0">
         </div>
       </div>
     </div>
 
   </body>
+
 </html>
