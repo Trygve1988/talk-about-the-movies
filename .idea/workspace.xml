@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="02b96248-1be8-48ca-ac66-06c58f283651" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/searches/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/searches/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_navbar.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_navbar.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -176,7 +176,8 @@
       <workItem from="1646595093748" duration="356000" />
       <workItem from="1646595930329" duration="22000" />
       <workItem from="1646596301795" duration="648000" />
-      <workItem from="1646596997450" duration="4991000" />
+      <workItem from="1646596997450" duration="5154000" />
+      <workItem from="1646602193659" duration="1163000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1644711735961</created>
@@ -339,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646601810575</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="search green button">
+      <created>1646602026090</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1646602026090</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,6 +380,7 @@
     <MESSAGE value="posts" />
     <MESSAGE value="navbar" />
     <MESSAGE value="search top" />
-    <option name="LAST_COMMIT_MESSAGE" value="search top" />
+    <MESSAGE value="search green button" />
+    <option name="LAST_COMMIT_MESSAGE" value="search green button" />
   </component>
 </project>
