@@ -8,3 +8,4 @@
 Search.delete_all
 Post.delete_all
 Discussion.delete_all
+User.create(username: "test_user")

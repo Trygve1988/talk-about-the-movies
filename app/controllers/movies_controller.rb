@@ -15,27 +15,18 @@ class MoviesController < ApplicationController
   # POST /movies or /movies.json
   def create
     title = params[:title]
-    puts "AAAAAAAAAAAAAAAAAa #{title}"
-    @movie = Movie.new()
-    @movie.title = title
-
-    if @movie.save
-      redirect_to root_path, notice: "Movie was successfully created."
+    # finnes filmen fra før?
+    @movie = Movie.where(title: title).first
+    if @movie
+      redirect_to @movie
     else
-      flash[:notice] = @movie.errors.full_messages.to_sentence
-      redirect_back(fallback_location: root_path)
-    end
-  end
-
-  # PATCH/PUT /movies/1 or /movies/1.json
-  def update
-    respond_to do |format|
-      if @movie.update(movie_params)
-        format.html { redirect_to movie_url(@movie), notice: "Movie was successfully updated." }
-        format.json { render :show, status: :ok, location: @movie }
+      @movie = Movie.new()
+      @movie.title = title
+      if @movie.save
+        redirect_to @movie
       else
-        format.html { render :edit, status: :unprocessable_entity }
-        format.json { render json: @movie.errors, status: :unprocessable_entity }
+        flash[:notice] = @movie.errors.full_messages.to_sentence
+        redirect_back(fallback_location: root_path)
       end
     end
   end

@@ -15,15 +15,10 @@ class DiscussionsController < ApplicationController
   # POST /discussions or /discussions.json
   def create
     @discussion = Discussion.new(discussion_params)
-
-    respond_to do |format|
-      if @discussion.save
-        format.html { redirect_to movie_url(@discussion.movie), notice: "Discussion was successfully created." }
-        format.json { render :show, status: :created, location: @discussion }
-      else
-        format.html { render :new, status: :unprocessable_entity }
-        format.json { render json: @discussion.errors, status: :unprocessable_entity }
-      end
+    if @discussion.save
+      redirect_to @discussion
+    else
+      render :new, status: :unprocessable_entity
     end
   end
 
