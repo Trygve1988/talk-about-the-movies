@@ -3,13 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="02b96248-1be8-48ca-ac66-06c58f283651" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/discussions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/discussions_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/movies_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/movies_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/discussion.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/discussion.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/movie.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/movie.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/searches/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/searches/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/post.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/post.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/_post.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/_post.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20220228002924_create_posts.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20220228002924_create_posts.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +184,7 @@
       <workItem from="1646596301795" duration="648000" />
       <workItem from="1646596997450" duration="5154000" />
       <workItem from="1646602193659" duration="6431000" />
-      <workItem from="1646611250904" duration="297000" />
+      <workItem from="1646611250904" duration="2516000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1644711735961</created>
@@ -375,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646605755170</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="can delete">
+      <created>1646611585256</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1646611585256</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,6 +418,7 @@
     <MESSAGE value="search green button" />
     <MESSAGE value="migration fix" />
     <MESSAGE value="skrivefeil" />
-    <option name="LAST_COMMIT_MESSAGE" value="skrivefeil" />
+    <MESSAGE value="can delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="can delete" />
   </component>
 </project>

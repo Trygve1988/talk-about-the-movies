@@ -32,10 +32,12 @@ ActiveRecord::Schema[7.0].define(version: 2022_02_28_002924) do
 
   create_table "posts", force: :cascade do |t|
     t.bigint "discussion_id", null: false
+    t.bigint "user_id", null: false
     t.string "text"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["discussion_id"], name: "index_posts_on_discussion_id"
+    t.index ["user_id"], name: "index_posts_on_user_id"
   end
 
   create_table "searches", force: :cascade do |t|
@@ -53,4 +55,5 @@ ActiveRecord::Schema[7.0].define(version: 2022_02_28_002924) do
   add_foreign_key "discussions", "movies"
   add_foreign_key "discussions", "users"
   add_foreign_key "posts", "discussions"
+  add_foreign_key "posts", "users"
 end

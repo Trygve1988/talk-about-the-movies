@@ -15,6 +15,11 @@
     <%= form.text_field :discussion_id, id: :discussion_id, value: @discussion.id, type: :hidden %>
   </div>
 
+  <div>
+    <% current_user = User.find(1) %>
+    <%= form.number_field :user_id, id: :story_user_id, value: current_user.id, type: :hidden %>
+  </div>
+
   <div class="input-group mb-3">
     <%= form.text_field :text, class: "form-control" %>
     <%= form.submit class: "btn btn-primary" %>

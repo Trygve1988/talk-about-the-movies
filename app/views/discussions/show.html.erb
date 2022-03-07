@@ -1,7 +1,8 @@
 <p style="color: green"><%= notice %></p>
 <!-- heading -->
 <div class="mb-4">
-  <h1><%= @discussion.title %></h1>
+  <strong> <%= @discussion.user.username %> </strong><br>
+  <%= @discussion.title %>
 </div>
 
 <!-- new post -->
